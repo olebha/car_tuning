@@ -1,0 +1,117 @@
+@media(max-width:1400px) {
+
+    .adv-left,
+    .adv-right {
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+
+    .card-container-left,
+    .card-container-right {
+        display: block;
+        width: 95%;
+        position: static;
+        margin: auto;
+    }
+
+    .adv-card {
+        animation-name: bg;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+        animation-fill-mode: both;
+        background: linear-gradient(90deg, #141414 50%, #ff5a5a 50%, #ff5a5a 100%);
+    }
+
+    .cars-card {
+        display: block;
+        width: 95%;
+        margin: 20px auto;
+    }
+    .card-img{
+        display: block;
+        margin: 20px auto;
+    }
+    .mat-card-title{
+        display: block;
+        margin-bottom:  20px;
+        text-align: center;
+    }
+    .mat-text{
+        margin:20px 0 ;
+    }
+
+    .materials-left,
+    .materials-right {
+        display: block;
+        width: 95%;
+    }
+    .cars-link:hover{
+        background-color: #DB3138;
+    }
+    .button:hover{
+        background: linear-gradient(90deg, #DB3138 0%, #DB3138 19.79%, #DB3138 39.06%, #DB3138 56.25%, #DB3138 70.31%, #DB3138 86.98%, #DB3138 100%);
+        animation: none;
+    }
+    .services-button:hover{
+    }
+    .services-card{
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+    .about-left{
+        display: block;
+        margin: auto;
+        width: 90%;
+    }
+    .about-right{
+       display: block;
+       margin:auto;
+       width: 90%;
+    }
+    .ab-card-title{
+        text-align: center;
+    }
+    .ab-img{
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .projects-img{
+        display: block;
+        margin: auto;
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .projects-img:hover{
+        transform: scale(1);
+    }
+    input{
+        width: 90%;
+        margin-bottom: 20px;
+    }   
+    textarea{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    button:hover{
+        background: #DB3138 ;
+        box-shadow: none;
+        color: white;
+        border: none;
+    }
+    .header{
+        background-attachment: scroll;
+    }
+    .contacts-card{
+        display: block;
+        width: 90%;
+
+        margin: auto; 
+        margin-bottom: 20px;
+    }
+    .contacts-title{
+        font-size: 20px;
+    }
+}
